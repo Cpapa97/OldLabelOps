@@ -1,2 +1,2 @@
 # LabelOps
-Operates of labeled neuronal meshes.
+Operates on labeled neuronal meshes.
