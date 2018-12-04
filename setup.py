@@ -16,7 +16,7 @@ with open(path.join(here, 'labelops', 'version.py')) as f:
     exec(f.read())
 
 with open(path.join(here, 'requirements.txt')) as f:
-    requirements = f.read().split()
+    requirements = f.read()#.split()
 
 setup(
     name='datajoint',
