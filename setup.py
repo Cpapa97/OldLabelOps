@@ -28,6 +28,6 @@ setup(
     license="GNU LGPL",
     url='https://github.com/Cpapa97/LabelOps',
     keywords='functional connectomics',
-    packages=find_packages(['labelops']),
+    packages=['labelops'],
     install_requires=requirements,
 )
