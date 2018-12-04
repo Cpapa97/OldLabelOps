@@ -19,7 +19,7 @@ with open(path.join(here, 'requirements.txt')) as f:
     requirements = f.read()#.split()
 
 setup(
-    name='datajoint',
+    name='labelops',
     version=__version__,
     description="Operates on labeled neuronal meshes.",
     long_description=long_description,
