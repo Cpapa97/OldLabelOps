@@ -245,4 +245,4 @@ class LabelOps: #labelops:
         """
         
         """
-        self.dok_as_array(label_array)
+        return self.dok_as_array(label_array)
