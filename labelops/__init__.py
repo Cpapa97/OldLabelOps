@@ -4,4 +4,4 @@ __author__ = "Christos Papadopoulos at Baylor College of Medicine"
 __date__ = "Dec 2, 2018"
 __all__ = ['__author__', '__version__', 'LabelOps']
 
-from .label_ops import LabelOps
+from . import LabelOps
