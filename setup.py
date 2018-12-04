@@ -19,7 +19,7 @@ with open(path.join(here, 'requirements.txt')) as f:
     requirements = f.read().split()
 
 setup(
-    name='datajoint',
+    name='labelops',
     version=__version__,
     description="Operates on labeled neuronal meshes.",
     long_description=long_description,
@@ -28,6 +28,6 @@ setup(
     license="GNU LGPL",
     url='https://github.com/Cpapa97/LabelOps',
     keywords='functional connectomics',
-    packages=find_packages(['labelops']),
+    packages=['labelops'],
     install_requires=requirements,
 )
