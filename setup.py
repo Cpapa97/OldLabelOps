@@ -26,7 +26,7 @@ setup(
     author='Christos Papadopoulos',
     author_email='cpapa97@gmail.com',
     license="GNU LGPL",
-    url='https://github.com/Cpapa97/LabelOps,
+    url='https://github.com/Cpapa97/LabelOps',
     keywords='functional connectomics',
     packages=find_packages(['labelops']),
     install_requires=requirements,
